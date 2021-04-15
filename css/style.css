@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Pacifico&display=swap');
+
+:root {
+  --main-color: #166570;
+  --dark-color: #464646;
+  --font-logo: font-family: 'Pacifico', cursive;
+}
+
+/* Dark Grey: #464646 */
+/* Main Color: #166570 */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Base Styles */
+
+
+
+/* Logo + Nav */
