@@ -17,6 +17,10 @@
   margin: 0;
 }
 
+img {
+  width: 100%;
+}
+
 /* Removing Base Styles */
 a,
 li {
@@ -26,10 +30,11 @@ li {
 }
 
 /* Logo + Nav */
+
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 2rem 2.5rem;
+  padding: 1rem 2rem;
   color: var(--dark-color);
 }
 
@@ -48,10 +53,59 @@ nav span {
 
 .logo--text {
   font-family: var(--font-logo);
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 
+/* Hero */
+
+main {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 span {
+  color: var(--main-color);
+}
+
+.hero {
+  text-align: center;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.hero img {
+  max-width: 500px;
+  margin-left: 1rem;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  color: var(--dark-color);
+}
+
+.hero p {
+  font-size: 1rem;
+  color: var(--dark-color);
+  font-weight: 500;
+}
 /* Media Queries */
+
+@media (max-height: 605px) {
+  .hero img {
+    max-height: 250px;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .logo--text {
+    font-size: 1.3rem;
+  }
+
+  .hero p {
+    font-size: 0.8rem;
+  }
+}
 
 @media (min-width: 640px) {
   nav ul {
