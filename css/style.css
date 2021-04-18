@@ -35,6 +35,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 1rem 2rem;
+  margin-bottom: 2rem;
   color: var(--dark-color);
 }
 
@@ -73,37 +74,54 @@ h1 span {
 }
 
 .hero img {
+  margin-top: -1rem;
   max-width: 500px;
   margin-left: 1rem;
 }
 
 .hero h1 {
-  font-size: 2rem;
+  font-size: 1.7rem;
+  font-weight: 600;
   color: var(--dark-color);
 }
 
 .hero p {
   font-size: 1rem;
   color: var(--dark-color);
-  font-weight: 500;
+  margin-top: -2rem;
+}
+
+.cta__button {
+  margin-top: 1.5rem;
+  background-color: var(--main-color);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  padding: 0.9rem 1.3rem;
+  letter-spacing: 0.125rem;
+  border-radius: 10px;
+  border: none;
+}
+
+/* Footer Styling */
+.social__links {
+  display: flex;
+  justify-content: center;
 }
 /* Media Queries */
 
-@media (max-height: 605px) {
-  .hero img {
-    max-height: 250px;
-  }
-
-  .hero h1 {
-    font-size: 1.8rem;
-  }
-
-  .logo--text {
-    font-size: 1.3rem;
+@media (max-height: 600px) {
+  nav {
+    margin-bottom: 0rem;
   }
 
   .hero p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .cta__button {
+    font-size: 0.9rem;
+    margin-top: 1.2rem;
   }
 }
 
