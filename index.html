@@ -15,10 +15,10 @@
     <header>
       <nav>
         <a href="#" class="logo--text"><span>Drew</span> Develops</a>
-        <button class="hamburger__icon">
+        <button class="hamburger__icon" id="hamburger__icon">
           <i class="fas fa-2x fa-bars"></i>
         </button>
-        <ul class="nav__ul" id="class__ul">
+        <ul class="nav__ul" id="nav__ul">
           <li><a href="#">Home</a></li>
           <li><a href="#">My Work</a></li>
           <li><a href="#">Connect</a></li>
@@ -27,14 +27,22 @@
     </header>
     <main>
       <div class="hero">
-        <h1>Hey there,</h1>
-        <h1>I'm <span>Drew</span></h1>
-        <img src="imgs/drewsvg.svg" />
-        <p>
+        <div class="left__content">
+          <div class="desktop__container">
+            <h1>Hey there, <br />I'm <span>Drew</span></h1>
+            <p class="desktop--show">
+              I'm a front end developer that focuses on delivering a unique web
+              presence for businesses and individuals.
+            </p>
+            <button class="cta__button desktop--show">See My Work</button>
+          </div>
+          <img src="imgs/drewsvg.svg" />
+        </div>
+        <p class="mobile--hide">
           I'm a front end developer that focuses on delivering a unique web
           presence for businesses and individuals.
         </p>
-        <button class="cta__button">See My Work</button>
+        <button class="cta__button mobile--hide">See My Work</button>
       </div>
     </main>
     <footer>
@@ -48,5 +56,6 @@
         <p class="copyright__footer">© 2021 Drew Develops</p>
       </div>
     </footer>
+    <script src="js/script.js"></script>
   </body>
 </html>
