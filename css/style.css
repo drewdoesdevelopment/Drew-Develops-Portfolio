@@ -17,16 +17,16 @@
   margin: 0;
 }
 
-img {
-  width: 100%;
-}
-
-/* Removing Base Styles */
+/* Base Styles */
 a,
 li {
   text-decoration: none;
   list-style: none;
   color: inherit;
+}
+
+img {
+  width: 100%;
 }
 
 /* Logo + Nav */
@@ -35,7 +35,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 1rem 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.4rem;
   color: var(--dark-color);
 }
 
@@ -89,6 +89,7 @@ h1 span {
   font-size: 1rem;
   color: var(--dark-color);
   margin-top: -2rem;
+  font-weight: 500;
 }
 
 .cta__button {
@@ -107,8 +108,50 @@ h1 span {
 .social__links {
   display: flex;
   justify-content: center;
+  margin-top: 1.5rem;
+  font-size: 18px;
+  color: var(--main-color);
 }
+
+.social__links li {
+  padding-right: 5px;
+}
+
+footer .container {
+  text-align: center;
+}
+
+.copyright__footer {
+  margin-top: 3px;
+  font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #194d54;
+}
+
 /* Media Queries */
+
+/* Large Mobile Screen Height Query */
+
+@media (min-height: 732px) {
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .social__links {
+    margin-top: 3.5rem;
+    font-size: 22px;
+  }
+
+  .copyright__footer {
+    font-size: 11px;
+    margin-top: 0.5rem;
+    font-weight: 500;
+  }
+}
 
 @media (max-height: 600px) {
   nav {
