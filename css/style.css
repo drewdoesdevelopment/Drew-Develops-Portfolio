@@ -228,7 +228,7 @@ footer .container {
 
   .hero {
     display: flex;
-    margin-top: 3rem;
+    margin-top: 5rem;
   }
 
   .hero h1 {
@@ -279,6 +279,7 @@ footer .container {
 
   .hero img {
     min-width: 400px;
+    max-width: 421px;
   }
 
   .copyright__footer {
@@ -293,13 +294,8 @@ footer .container {
     font-size: 1.8rem;
   }
 
-  .hero {
-    margin-top: 0;
-  }
-
   nav {
-    padding-top: 1rem;
-    padding-bottom: 0;
+    padding: 2rem 3rem;
   }
 
   nav li a {
@@ -312,25 +308,24 @@ footer .container {
 
   .hero img {
     max-width: 600px;
-    max-height: 500px;
+    max-height: 550px;
   }
 
   .hero h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 
   .hero p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.325rem;
   }
 
   .desktop__container {
     max-width: 40vw;
-    margin-top: -3rem;
   }
 
-  .hero {
-    max-height: 50vh;
+  footer {
+    margin-top: 8.5rem;
   }
 
   footer .container {
@@ -350,6 +345,7 @@ footer .container {
 
   .hero img {
     max-width: 750px;
+    max-height: 700px;
   }
 
   .hero h1 {
@@ -378,9 +374,5 @@ footer .container {
   .desktop__container {
     margin-top: -3rem;
     flex-basis: 40%;
-  }
-
-  .hero {
-    max-height: 70vh;
   }
 }
