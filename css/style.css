@@ -376,3 +376,34 @@ footer .container {
     flex-basis: 40%;
   }
 }
+
+/* Desktop with Smaller Heights */
+@media (max-height: 850px) and (min-width: 1024px) {
+  nav {
+    padding-bottom: 0;
+  }
+
+  footer {
+    margin-top: -0.5rem;
+  }
+
+  .hero img {
+    max-width: 492px;
+  }
+
+  .hero {
+    margin-top: 0;
+  }
+
+  .hero h1 {
+    font-size: 2.3rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .desktop__container {
+    margin-top: -3.5rem;
+  }
+}
