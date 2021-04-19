@@ -38,7 +38,7 @@ nav {
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 1rem 2rem;
-  margin-bottom: 1.4rem;
+  margin-bottom: 0.5rem;
   color: var(--dark-color);
 }
 
