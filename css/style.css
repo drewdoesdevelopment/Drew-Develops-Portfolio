@@ -185,6 +185,17 @@ footer .container {
   border: none;
   border-radius: 5px;
 }
+
+.card__button {
+  background-color: var(--main-color);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  color: white;
+  padding: 10px 15px;
+  margin: 3px;
+  border: none;
+  border-radius: 5px;
+}
 /* Media Queries */
 
 /* Large Mobile Screen Height Query */
