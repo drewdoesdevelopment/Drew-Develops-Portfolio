@@ -157,6 +157,34 @@ footer .container {
   display: none;
 }
 
+/* Cards */
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: #ededed;
+  width: 250px;
+}
+
+.card__content {
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
+}
+
+.card__content button {
+  background-color: var(--main-color);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: white;
+  padding: 10px 15px;
+  margin: 3px;
+  border: none;
+  border-radius: 5px;
+}
 /* Media Queries */
 
 /* Large Mobile Screen Height Query */
