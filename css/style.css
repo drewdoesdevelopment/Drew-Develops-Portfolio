@@ -56,6 +56,10 @@ nav button {
   cursor: pointer;
 }
 
+ul li:hover {
+  color: var(--main-color);
+}
+
 .show {
   display: flex;
   align-items: center;
@@ -138,6 +142,10 @@ h1 span {
   color: var(--main-color);
 }
 
+.social__links:hover {
+  color: var(--dark-color);
+}
+
 .social__links li {
   padding-right: 5px;
 }
@@ -161,12 +169,15 @@ footer .container {
 
 .cards {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .card {
   background-color: #ededed;
   width: 250px;
+  border-radius: 10px;
 }
 
 .card__content {
@@ -175,27 +186,21 @@ footer .container {
   padding: 12px 0;
 }
 
-.card__content button {
-  background-color: var(--main-color);
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  color: white;
-  padding: 10px 15px;
-  margin: 3px;
-  border: none;
-  border-radius: 5px;
-}
-
 .card__button {
-  background-color: var(--main-color);
   font-family: 'Montserrat', sans-serif;
   font-size: 0.8rem;
+  background-color: var(--main-color);
   color: white;
   padding: 10px 15px;
   margin: 3px;
-  border: none;
-  border-radius: 5px;
+  border-radius: 30px;
 }
+
+.card__button:hover,
+.cta__button:hover {
+  background-color: var(--dark-color);
+}
+
 /* Media Queries */
 
 /* Large Mobile Screen Height Query */
