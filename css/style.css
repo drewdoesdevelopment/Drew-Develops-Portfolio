@@ -124,6 +124,7 @@ h1 span {
   margin-top: 1.5rem;
   background-color: var(--main-color);
   color: white;
+  cursor: pointer;
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   padding: 0.9rem 1.3rem;
@@ -131,6 +132,12 @@ h1 span {
   letter-spacing: 0.125rem;
   border-radius: 10px;
   border: none;
+  transition: 0.2s ease;
+}
+
+.card__button:hover,
+.cta__button:hover {
+  background-color: var(--dark-color);
 }
 
 /* Footer Styling */
@@ -194,11 +201,12 @@ footer .container {
   padding: 10px 15px;
   margin: 3px;
   border-radius: 30px;
+  transition: 0.2s ease;
 }
 
-.card__button:hover,
-.cta__button:hover {
-  background-color: var(--dark-color);
+.card__image {
+  width: 250px;
+  height: 250px;
 }
 
 /* Media Queries */
@@ -326,6 +334,15 @@ footer .container {
     max-width: 421px;
   }
 
+  .cards {
+    flex-direction: row;
+    min-height: 50vh;
+  }
+
+  .card {
+    margin-left: 30px;
+  }
+
   .copyright__footer {
     font-size: 0.8rem;
     color: var(--main-color);
@@ -373,7 +390,7 @@ footer .container {
   }
 
   footer .container {
-    width: 90vw;
+    width: 95vw;
   }
 
   .copyright__footer {
@@ -418,6 +435,10 @@ footer .container {
   .desktop__container {
     margin-top: -3rem;
     flex-basis: 40%;
+  }
+
+  .cards {
+    min-height: 60vh;
   }
 }
 
