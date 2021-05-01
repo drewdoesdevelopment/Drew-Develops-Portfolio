@@ -172,41 +172,24 @@ footer .container {
   display: none;
 }
 
-/* Cards */
+/* Project Cards */
 
-.cards {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.projects {
+  text-align: center;
 }
 
-.card {
-  background-color: #ededed;
-  width: 250px;
-  border-radius: 10px;
-}
-
-.card__content {
-  display: flex;
-  justify-content: center;
-  padding: 12px 0;
-}
-
-.card__button {
+.projects h1 {
+  font-size: 2rem;
   font-family: 'Montserrat', sans-serif;
-  font-size: 0.8rem;
-  background-color: var(--main-color);
-  color: white;
-  padding: 10px 15px;
-  margin: 3px;
-  border-radius: 30px;
-  transition: 0.2s ease;
 }
 
-.card__image {
-  width: 250px;
-  height: 250px;
+.project__card {
+  display: flex;
+  justify-content: center;
+}
+
+.project__img {
+  width: 20vw;
 }
 
 /* Media Queries */
