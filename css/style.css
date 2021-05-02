@@ -191,7 +191,8 @@ footer .container {
 }
 
 .project__card {
-  background: linear-gradient(179.86deg, #0d7e8d 0.12%, #4e4e4e 99.88%);
+  margin-top: 2rem;
+  background: linear-gradient(179.86deg, #0d7e8d 0.12%, #1b1b1b 99.88%);
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
   border-radius: 40px;
   width: 290px;
@@ -200,7 +201,7 @@ footer .container {
 
 .card--icon {
   color: #ffffff;
-  padding: 0.7rem;
+  padding: 0.8rem;
 }
 
 .card--title {
@@ -247,6 +248,10 @@ footer .container {
 .card__info p {
   font-family: 'Montserrat', sans-serif;
   /* font-size: 1.8rem; */
+}
+
+.title--md {
+  font-size: 1.7rem;
 }
 
 /* Media Queries */
