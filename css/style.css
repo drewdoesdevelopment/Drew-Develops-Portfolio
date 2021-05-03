@@ -200,8 +200,12 @@ footer .container {
 }
 
 .card--icon {
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: #125b65;
+  border-radius: 30%;
   padding: 0.8rem;
+  background-color: white;
+  margin: 1rem;
 }
 
 .card--title {
