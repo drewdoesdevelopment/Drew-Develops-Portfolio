@@ -255,7 +255,14 @@ footer .container {
 }
 
 .title--md {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
+}
+
+.project__link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #26b7ca;
 }
 
 /* Media Queries */
