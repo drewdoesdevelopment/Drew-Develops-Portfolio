@@ -182,6 +182,15 @@ footer .container {
   align-items: center;
 }
 
+.page--title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  color: var(--dark-color);
+  margin-top: 1rem;
+}
+
 .card__container {
   display: flex;
   flex-direction: column;
@@ -265,6 +274,12 @@ footer .container {
   color: #26b7ca;
 }
 
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* Media Queries */
 
 /* Large Mobile Screen Height Query */
@@ -307,6 +322,10 @@ footer .container {
 
 /* Tablet */
 @media (min-width: 768px) {
+  .projects {
+    min-height: 60vh;
+  }
+
   nav ul {
     display: flex;
   }
@@ -403,6 +422,10 @@ footer .container {
     font-size: 0.8rem;
     color: var(--main-color);
   }
+
+  .card__container {
+    flex-direction: row;
+  }
 }
 
 /* Desktop */
@@ -417,6 +440,10 @@ footer .container {
 
   nav li a {
     font-size: 1.2rem;
+  }
+
+  main {
+    min-height: 60vh;
   }
 
   .hero p {
