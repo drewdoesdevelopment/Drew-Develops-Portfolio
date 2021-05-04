@@ -132,7 +132,7 @@ h1 span {
   letter-spacing: 0.125rem;
   border-radius: 10px;
   border: none;
-  transition: 0.2s ease;
+  transition: 0.2s;
 }
 
 .card__button:hover,
@@ -239,6 +239,13 @@ footer .container {
   font-weight: 500;
   font-size: 0.9rem;
   padding: 0.5rem 0.8rem;
+  transition: 0.2s;
+}
+
+.card__btn:hover {
+  background-color: var(--main-color);
+  cursor: pointer;
+  color: white;
 }
 
 .card__info p {
