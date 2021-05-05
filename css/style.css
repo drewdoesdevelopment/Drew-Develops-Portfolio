@@ -331,6 +331,7 @@ footer .container {
 @media (min-width: 768px) {
   .projects {
     min-height: 60vh;
+    margin-bottom: 5rem;
   }
 
   nav ul {
@@ -548,6 +549,7 @@ footer .container {
 
   .hero {
     margin-top: 0;
+    margin-bottom: 1rem;
   }
 
   .hero h1 {
