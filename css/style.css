@@ -57,7 +57,7 @@ nav button {
 }
 
 ul li:hover {
-  color: var(--main-color);
+  color: #0a4a52;
 }
 
 .show {
@@ -74,6 +74,15 @@ ul li:hover {
 
 nav span {
   color: var(--main-color);
+}
+
+nav ul li a {
+  padding-bottom: 6px;
+}
+
+.current--page {
+  border-bottom: 2.5px solid var(--main-color);
+  padding-bottom: 3px;
 }
 
 .logo--text {
@@ -567,4 +576,37 @@ footer .container {
   nav ul li a {
     font-size: 1.125rem;
   }
+}
+
+/* Animations */
+
+.hvr-underline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-left:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: var(--main-color);
+  height: 3px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-left:hover:before,
+.hvr-underline-from-left:focus:before,
+.hvr-underline-from-left:active:before {
+  right: 0;
 }
