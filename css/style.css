@@ -542,6 +542,61 @@ footer .container {
   }
 }
 
+/* 1440p Desktops */
+@media (min-width: 2300px) {
+  .hero {
+    margin-top: 2rem;
+  }
+
+  .hero h1 {
+    font-size: 5rem;
+  }
+
+  .hero p {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    max-width: 85%;
+  }
+
+  .hero img {
+    max-width: 900px;
+    max-height: 900px;
+  }
+
+  .cta__button {
+    text-align: center;
+    width: 234px;
+    letter-spacing: 0;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+
+  nav {
+    padding: 4rem 5rem;
+  }
+
+  nav li a {
+    font-size: 2.2rem;
+  }
+
+  .logo--text {
+    font-size: 3rem;
+  }
+
+  .social__links li {
+    font-size: 2.3rem;
+  }
+
+  .copyright__footer {
+    padding-top: 0.4rem;
+    font-size: 1.8rem;
+  }
+
+  footer {
+    margin-top: 7rem;
+  }
+}
+
 /* Desktop with Smaller Heights */
 @media (max-height: 850px) and (min-width: 1024px) {
   nav {
