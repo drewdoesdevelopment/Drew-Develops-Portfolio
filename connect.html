@@ -21,13 +21,8 @@
       name="description"
       content="Web Developer that focuses on delivering unique web experiences."
     />
-    <title>Drew Develops | Home</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Rubik:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="./css/style.css" />
+    <title>Drew Develops | My Work</title>
   </head>
   <body>
     <header>
@@ -37,38 +32,26 @@
           <i class="fas fa-2x fa-bars"></i>
         </button>
         <ul class="nav__ul" id="nav__ul">
-          <li><a href="#" class="current--page">Home</a></li>
+          <li>
+            <a href="./index.html" class="hvr-underline-from-left">Home</a>
+          </li>
           <li>
             <a href="./myWork.html" class="hvr-underline-from-left">My Work</a>
           </li>
-          <li>
-            <a href="./connect.html" class="hvr-underline-from-left">Connect</a>
-          </li>
+          <li><a href="#" class="current--page">Connect</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-      <div class="hero">
-        <div class="left__content">
-          <div class="desktop__container">
-            <h1>Hey there, <br />I'm <span>Drew</span></h1>
-            <p class="desktop--show">
-              I'm a web developer that focuses on delivering a unique online
-              presence for businesses and individuals.
-            </p>
-            <a href="./myWork.html" class="cta__button desktop--show"
-              >See My Work</a
-            >
-          </div>
-          <img src="./imgs/drewsvg.svg" />
-        </div>
-        <p class="mobile--hide">
-          I'm a web developer that focuses on delivering a unique online
-          presence for businesses and individuals.
-        </p>
-        <a href="./myWork.html" class="cta__button mobile--hide">See My Work</a>
+    <section class="connect">
+      <div class="form__container">
+        <form action="" method="post">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" />
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+        </form>
       </div>
-    </main>
+    </section>
     <footer>
       <div class="container">
         <ul class="social__links">

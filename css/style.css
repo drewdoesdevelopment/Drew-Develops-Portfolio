@@ -296,6 +296,35 @@ footer .container {
   align-items: center;
 }
 
+/* Connect Area */
+
+.connect {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.form__container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  margin-bottom: 1rem;
+}
+
+form label {
+  margin-bottom: 0.5rem;
+}
+
 /* Media Queries */
 
 /* Large Mobile Screen Height Query */
