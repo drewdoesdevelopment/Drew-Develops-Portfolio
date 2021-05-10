@@ -300,12 +300,25 @@ footer .container {
 
 .connect {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.2rem;
   font-weight: 500;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.connect h1 {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.connect textarea {
+  resize: none;
+  height: 150px;
+  width: 20px;
 }
 
 .form__container {
-  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -315,14 +328,62 @@ footer .container {
 form {
   display: flex;
   flex-direction: column;
+  background-image: linear-gradient(
+    to bottom right,
+    var(--main-color),
+    var(--dark-color)
+  );
+  padding: 2rem;
+  border-radius: 10px;
+  color: white;
+}
+
+form #name,
+#email,
+#tel {
+  padding: 0.3rem;
+}
+
+form #message {
+  min-height: 80px;
+  width: 240px;
 }
 
 form input {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  /* text-align: center; */
+  font-size: 0.8rem;
   margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+form textarea {
+  font-family: inherit;
+  font-size: 0.8rem;
+  border: none;
+  border-radius: 4px;
+  padding: 0.3rem;
 }
 
 form label {
   margin-bottom: 0.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.form--text-sm {
+  font-size: 0.7rem;
+  color: lightgrey;
+  letter-spacing: 0;
+}
+
+::placeholder {
+  font-size: 0.7rem;
+  font-weight: 300;
+  color: grey;
 }
 
 /* Media Queries */
