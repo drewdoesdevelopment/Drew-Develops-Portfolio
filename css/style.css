@@ -194,7 +194,7 @@ footer .container {
 .page--title {
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
-  font-weight: 300;
+  font-weight: 500;
   letter-spacing: 0.5px;
   color: var(--dark-color);
   margin-top: 1rem;
@@ -309,7 +309,7 @@ footer .container {
   font-size: 2.2rem;
   margin-bottom: 2rem;
   text-align: center;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .connect textarea {
@@ -418,7 +418,7 @@ form label {
 ::placeholder {
   font-size: 0.7rem;
   font-weight: 300;
-  color: grey;
+  color: rgba(0, 0, 0, 0.356);
 }
 
 /* Media Queries */
@@ -568,12 +568,52 @@ form label {
   .card__container {
     flex-direction: row;
   }
+
+  form {
+    width: 600px;
+  }
+
+  .connect h1 {
+    font-size: 2.5rem;
+  }
+
+  form #message {
+    width: 535px;
+    border-radius: 8px;
+  }
+
+  form label {
+    font-size: 1.2rem;
+    max-width: 230px;
+  }
+
+  form input {
+    font-size: 0.9rem;
+  }
+
+  form textarea {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .form__button {
+    border-radius: 5px;
+  }
+
+  ::placeholder {
+    font-size: 0.9rem;
+  }
 }
 
 /* Desktop */
 @media (min-width: 1024px) {
   .logo--text {
     font-size: 1.8rem;
+  }
+
+  .page--title {
+    font-weight: 500;
+    margin-top: -2.5rem;
   }
 
   nav {
@@ -625,6 +665,10 @@ form label {
 
 /* Desktop LG */
 @media (min-width: 1440px) {
+  .form__container {
+    margin-bottom: 5rem;
+  }
+
   .hero {
     margin-top: 0rem;
   }
