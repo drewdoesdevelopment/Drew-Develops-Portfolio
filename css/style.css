@@ -318,6 +318,17 @@ footer .container {
   width: 20px;
 }
 
+label i {
+  color: whitesmoke;
+  padding-right: 0.3rem;
+}
+
+.fa-comment-dots,
+.fa-envelope,
+.fa-user-circle {
+  padding-right: 0.125rem;
+}
+
 .form__container {
   display: flex;
   flex-direction: column;
@@ -336,17 +347,19 @@ form {
   padding: 2rem;
   border-radius: 10px;
   color: white;
+  box-shadow: 0px 12px 25px 0 rgba(0, 0, 0, 0.2);
 }
 
 form #name,
 #email,
 #tel {
-  padding: 0.3rem;
+  padding: 0.5rem 0.8rem;
 }
 
 form #message {
   min-height: 80px;
   width: 240px;
+  padding: 0.5rem 0.7rem;
 }
 
 form input {
@@ -369,9 +382,24 @@ form textarea {
 
 form label {
   margin-bottom: 0.5rem;
-  font-weight: 400;
+  font-weight: 500;
+  color: whitesmoke;
   text-transform: uppercase;
-  letter-spacing: 1.2px;
+  letter-spacing: 0.8px;
+}
+
+.form__button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  background-color: #0a7583;
+  color: whitesmoke;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 0.8rem 1.5rem;
 }
 
 .form--text-sm {
