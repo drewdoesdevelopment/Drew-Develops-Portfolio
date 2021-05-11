@@ -158,7 +158,7 @@ h1 span {
   color: var(--main-color);
 }
 
-.social__links:hover {
+.social__links a:hover {
   color: var(--dark-color);
 }
 
@@ -242,18 +242,19 @@ footer .container {
 
 .card__btn {
   font-family: 'Montserrat', sans-serif;
-  background: #ffebeb;
+  background-color: #0a7583;
+  color: whitesmoke;
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   font-weight: 500;
   font-size: 0.9rem;
   padding: 0.5rem 0.8rem;
-  transition: 0.2s;
+  transition: 0.3s;
 }
 
 .card__btn:hover {
-  background-color: #0a7583;
+  background-color: var(--dark-color);
   cursor: pointer;
   color: white;
 }
@@ -380,6 +381,11 @@ form button:focus {
   box-shadow: 0px 0px 0px 3px rgb(156, 212, 250);
 }
 
+form button:hover {
+  background-color: var(--dark-color);
+  cursor: pointer;
+}
+
 form textarea {
   font-family: inherit;
   font-size: 0.8rem;
@@ -408,6 +414,7 @@ form label {
   border-radius: 20px;
   margin-top: 20px;
   padding: 0.8rem 1.5rem;
+  transition: 0.3s;
 }
 
 .form--text-sm {
@@ -420,6 +427,29 @@ form label {
   font-size: 0.7rem;
   font-weight: 300;
   color: rgba(0, 0, 0, 0.356);
+}
+
+/* Form Success Page */
+
+.thank__you {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 60vh;
+}
+
+.thank__you img {
+  max-width: 250px;
+  margin-bottom: 2rem;
+}
+
+.thank__you h1 {
+  font-weight: 400;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* Media Queries */
@@ -585,7 +615,7 @@ form label {
   }
 
   .connect h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   form #message {
@@ -623,8 +653,17 @@ form label {
   }
 
   .page--title {
-    font-weight: 500;
+    font-size: 2rem;
+    font-weight: 400;
     margin-top: -2.5rem;
+  }
+
+  .thank__you img {
+    max-width: 400px;
+  }
+
+  .thank__you h1 {
+    font-size: 2rem;
   }
 
   nav {
@@ -792,8 +831,8 @@ form label {
 
   .page--title {
     font-size: 3rem;
-    font-weight: 600;
-    margin-top: -5rem;
+    font-weight: 400;
+    margin-top: -7rem;
   }
 
   .project__link {
@@ -870,7 +909,7 @@ form label {
 
   .connect h1 {
     font-size: 3rem;
-    font-weight: 600;
+    font-weight: 400;
   }
 
   .social__links li {
