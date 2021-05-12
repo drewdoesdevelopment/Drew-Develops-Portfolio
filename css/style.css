@@ -477,7 +477,7 @@ form label {
 }
 
 /* Small Phone Screen */
-@media (max-height: 600px) {
+@media (max-height: 570px) {
   nav {
     margin-bottom: 0rem;
   }
