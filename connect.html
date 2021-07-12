@@ -27,7 +27,10 @@
   <body>
     <header>
       <nav>
-        <a href="https://www.drewdevelops.com" class="logo--text"
+        <a
+          href="https://www.drewdevelops.com"
+          aria-label="Logo"
+          class="logo--text"
           ><span>Drew</span> Develops</a
         >
         <button class="hamburger__icon" id="hamburger__icon">
@@ -35,12 +38,24 @@
         </button>
         <ul class="nav__ul" id="nav__ul">
           <li>
-            <a href="./index.html" class="hvr-underline-from-left">Home</a>
+            <a
+              href="./index.html"
+              aria-label="Home Page"
+              class="hvr-underline-from-left"
+              >Home</a
+            >
           </li>
           <li>
-            <a href="./myWork.html" class="hvr-underline-from-left">My Work</a>
+            <a
+              href="./myWork.html"
+              aria-label="My Work"
+              class="hvr-underline-from-left"
+              >My Work</a
+            >
           </li>
-          <li><a href="#" class="current--page">Connect</a></li>
+          <li>
+            <a href="#" aria-label="Connect" class="current--page">Connect</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -88,22 +103,30 @@
     <footer>
       <div class="container">
         <ul class="social__links">
-          <a href="https://www.linkedin.com/in/drewpfeiler" target="_blank"
+          <a
+            href="https://www.linkedin.com/in/drewpfeiler"
+            aria-label="Linkedin"
+            target="_blank"
             ><li><i class="fab fa-lg fa-linkedin"></i></li>
             <li></li
           ></a>
 
           <li>
-            <a href="https://www.facebook.com/drewdevelops" target="_blank"
+            <a
+              href="https://www.facebook.com/drewdevelops"
+              aria-label="Facebook"
+              target="_blank"
               ><i class="fab fa-lg fa-facebook"></i
             ></a>
           </li>
           <li>
-            <a href="https://github.com/drewdoesdevelopment" target="_blank"
+            <a
+              href="https://github.com/drewdoesdevelopment"
+              aria-label="Github"
+              target="_blank"
               ><i class="fab fa-lg fa-github"></i
             ></a>
           </li>
-          <li><i class="fab fa-lg fa-dribbble"></i></li>
         </ul>
         <p class="copyright__footer">© 2021 Drew Develops</p>
       </div>
